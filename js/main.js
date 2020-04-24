@@ -168,9 +168,9 @@ $(document).ready(function() {
 		$(".control_btns a").removeClass("on").removeAttr("title");
 		$(".control_btns a").eq(aniIdx).addClass("on").attr("title","현재배너");
 
-		$(".vr div").eq(aniIdx).addClass("fadeIn on").TRANSITION(function() {
-			$(".vr div").eq(aniIdx).addClass("on");
-			old.removeClass("on");
+		$('.vr div').eq(aniIdx).addClass('fadeIn on').TRANSITION(function() {
+			$('.vr div').eq(aniIdx).addClass('on');
+			old.removeClass('on');
 		});
 
 		scaleVR(-1);
@@ -182,8 +182,8 @@ $(document).ready(function() {
 function refreshGnbH() {
 	var h = $(window).height();
 	var w = $(window).width();
-	var headerH = $("#header").height();
+	var headerH = $('#header').height();
 	var contH = h - (headerH);
 	
-	$(".visual").height(contH);
+	$('.visual').height(contH);
 }
