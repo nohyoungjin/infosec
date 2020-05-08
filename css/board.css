@@ -29,7 +29,7 @@ SUMMARY :
 /* checkbox */
 
 .check-m {display:inline-block;position:absolute;top:0;left:0;z-index:-1;margin:0;width:20px;height:20px;padding:0;vertical-align:middle}
-.check-m + label {display:block;position:relative;float:left;height:20px;padding-left:30px;line-height:20px;cursor:pointer}
+.check-m + label {display:block;position:relative;float:left;height:20px;padding-left:30px;line-height:20px;letter-spacing:-0.5px;cursor:pointer}
 .check-m + label:before {content:"";display:inline-block;position:absolute;left:0;top:0;width:20px;height:20px;background:url(../img/common/img_common.png) no-repeat -620px 0}
 .check-m.cancel + label:before {content:"";display:inline-block;position:absolute;left:0;top:0;width:20px;height:20px;background:url(../img/common/img_common.png) no-repeat -596px -30px}
 .check-m:checked + label:before {background: url(../img/common/img_common.png) no-repeat -620px -30px}
@@ -240,7 +240,7 @@ ul.insight_wrap li.on a.pdf_down {background:#e1002a}
 .tbl-form .wrap-input {position:relative}
 .tbl-form span {display:inline-block}
 
-.wrap-check {display:inline-block;position:relative;margin:14px 0;vertical-align:middle}
+.wrap-check {display:inline-block;position:relative;margin:10px 0;vertical-align:middle}
 .wrap-check:after {content:"";display:table;clear:both}
 
 .input-m {display:inline-block;height:38px;padding-left:10px;border:1px solid #dbdbdb;font-size:15px;color:#777;line-height:38px;border-radius:0;-webkit-appearance:none}

@@ -192,12 +192,6 @@ SUMMARY :
 .cont_vision .list_mission li:nth-child(3) strong em {color:#5b626a}
 .cont_vision .list_mission li p {font-size:15px;line-height:23px;letter-spacing:-0.9px}
 
-/* 오시는 길 (회사개요) */
-
-.map_area {font-size:0}
-.map_logo {display:inline-block;margin-right:30px;padding:27px 18px;border:1px solid #e6e6e6;vertical-align:top}
-.map_logo img {width:83px;height:34px}
-
 /* 기업문화 (기업문화) */
 
 .cont_culture .spot {height:285px;background:url(../img/comp/culture_bg.png) no-repeat center center}
