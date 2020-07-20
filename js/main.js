@@ -9,9 +9,9 @@ vendor = (function () {
 		i = 0,
 		l = vendors.length;
 
-	for ( ; i < l; i++ ) {
+	for (; i < l; i++) {
 		t = vendors[i] + 'ransform';
-		if ( t in dummyStyle ) {
+		if (t in dummyStyle) {
 			return vendors[i].substr(0, vendors[i].length - 1);
 		}
 	}
@@ -22,7 +22,7 @@ vendor = (function () {
 
 TRNEND_EV = (function () {
 
-	if ( vendor === false ) return false;
+	if (vendor === false) return false;
 
 	var transitionEnd = {
 			''			: 'transitionend',
@@ -38,7 +38,7 @@ TRNEND_EV = (function () {
 
 ANI_EV = (function () {
 
-	if ( vendor === false ) return false;
+	if (vendor === false) return false;
 
 	var animationEnd = {
 			''			: 'animationend',
@@ -54,7 +54,7 @@ ANI_EV = (function () {
 
 (function ($) {
 
-	$.fn.TRANSITION = function( callback ) {
+	$.fn.TRANSITION = function(callback) {
 
 		var ver = getIEVersion();
 
@@ -65,22 +65,22 @@ ANI_EV = (function () {
 
 		if (TRNEND_EV != undefined) {
 			$(this).one(TRNEND_EV, function() {
-				callback( $(this) );
+				callback($(this));
 			})
 		} else {
-			callback( $(this) );
+			callback($(this));
 		}
 
 	}
 
-	$.fn.ANI = function( callback ) {
+	$.fn.ANI = function(callback) {
 
 		if (ANI_EV != undefined) {
 			$(this).one(ANI_EV, function() {
-				callback( this );
+				callback(this);
 			})
 		} else {
-			callback( this );
+			callback(this);
 		}
 
 	}
