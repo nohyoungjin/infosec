@@ -35,7 +35,7 @@ $(function() {
 
 	$(window).resize(function() {
 
-		var w = $(this).width();
+		var w = window.innerWidth;
 
 		if (w > tabletW) {
 			$('body').removeClass('open');
@@ -114,7 +114,7 @@ $(function() {
 
 		$('#gnb').on('mouseenter', '> ul > li', function() {
 
-			if ($(window).width() > tabletW) {
+			if (window.innerWidth > tabletW) {
 
 				$('.h_group').addClass('menu_hover');
 				$(this).children('.sub_menu').stop().fadeIn().parent().siblings().children('.sub_menu').stop().fadeOut('fast');
@@ -128,7 +128,7 @@ $(function() {
 
 		$('#gnb').on('mouseleave', function() {
 
-			if ($(window).width() > tabletW) {
+			if (window.innerWidth > tabletW) {
 
 				$('.h_group').removeClass('on').css('border-bottom','1px solid #d3d3d3');
 
@@ -145,7 +145,7 @@ $(function() {
 
 		$('#gnb').on('focusin', '> ul > li > a', function() {
 
-			if ($(window).width() > tabletW) {
+			if (window.innerWidth > tabletW) {
 
 				$(this).siblings('.sub_menu').stop().fadeIn().parent().siblings().children('.sub_menu').stop().fadeOut();
 				$('.h_group').addClass('on').css('border-bottom','none');
@@ -161,7 +161,7 @@ $(function() {
 
 		$('.logo_link, #lnb > ul > li:first-child > a').on('focusin', function() {
 
-			if ($(window).width() > tabletW) {
+			if (window.innerWidth > tabletW) {
 
 				$('.h_group').removeClass('on').css('border-bottom','1px solid #d3d3d3');
 				$('#gnb > ul > li').siblings().children('.sub_menu').hide();
@@ -181,11 +181,12 @@ $(function() {
 		$('.btn_offcanvas').on('click', function(e) {
 
 			e.preventDefault();
+
 			$('#gnb').fadeIn('fast');
 			$('body').toggleClass('open');
 			
-			$('#wrap').stop().animate({ 'paddingTop' : '110px' }, 500, 'linear');
-			$('#header').stop().animate({ 'top' : '0' }, 500, 'linear');
+			$('#wrap').stop().animate({ 'paddingTop': '110px' }, 500, 'linear');
+			$('#header').stop().animate({ 'top': '0' }, 500, 'linear');
 			$('.backface').stop().fadeIn('slow');
 			
 		});
@@ -193,6 +194,7 @@ $(function() {
 		$('.btn_offcanvas_close').on('click', function(e) {
 
 			e.preventDefault();
+
 			$('#gnb').fadeOut('fast');
 			$('body').removeClass('open');
 
@@ -204,6 +206,7 @@ $(function() {
 		$(document).on('click touchstart', '.backface', function(e) {
 
 			e.preventDefault();
+
 			$('body').removeClass('open');
 			$('.backface').stop().fadeOut('slow');
 
@@ -216,7 +219,7 @@ $(function() {
 			e.preventDefault();
 			e.stopPropagation();
 
-			if ($(window).width() < tabletW) {
+			if (window.innerWidth <= tabletW) {
 
 				$(this).parent().find('.sub_menu').filter(':not(:animated)').slideToggle();
 
@@ -228,8 +231,8 @@ $(function() {
 					return;
 				}
 
-				$(this).parent().toggleClass('current');
 				$('#gnb > ul > li').removeClass('current');
+				$(this).parent().toggleClass('current');
 				
 			}
 
@@ -237,7 +240,7 @@ $(function() {
 
 		$(document).on('click', '#gnb > ul > li:not(".last") .sub_menu .item > a', function(e) {
 
-			if ($(window).width() < tabletW) {
+			if (window.innerWidth <= tabletW) {
 
 				e.preventDefault();
 				e.stopPropagation();
