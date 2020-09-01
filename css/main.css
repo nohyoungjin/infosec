@@ -25,8 +25,8 @@ body.load .visual .copy {opacity:1}
 .control_btns .btn_play.show, 
 .control_btns .btn_stop.show {display:inline-block}
 
-.btn_play {display:inline-block;width:15px;height:17px;background:url(../img/common/img_common.png) no-repeat -1041px 0;vertical-align:middle;text-indent:-99999px}
-.btn_stop {display:inline-block;width:12px;height:15px;background:url(../img/common/img_common.png) no-repeat -1025px 0;vertical-align:middle;text-indent:-99999px}
+.btn_play {display:inline-block;width:15px;height:17px;background:url(../img/common/sp_common.png) no-repeat -1041px 0;vertical-align:middle;text-indent:-99999px}
+.btn_stop {display:inline-block;width:12px;height:15px;background:url(../img/common/sp_common.png) no-repeat -1025px 0;vertical-align:middle;text-indent:-99999px}
 
 /* vr */
 
