@@ -1,5 +1,5 @@
 str = ''
-str += '<div class="footer">'
+str += '<div id="footer">'
 str += '	<div class="footer_wrap">'
 str += '		<div class="f_logo">SK infosec</div>'
 str += '		<div class="f_info">'

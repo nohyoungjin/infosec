@@ -403,7 +403,7 @@ SUMMARY :
 
 .cont_benefits .benefits {margin:65px 0 50px}
 .cont_benefits .benefits ul:after {display:block;clear:both;content:''}
-.cont_benefits .benefits > ul > li {display:table;float:left;width:50%;height:210px;margin:-1px 0 0 -1px;padding:38px 0;border:1px solid #e3e3e3}
+.cont_benefits .benefits > ul > li {display:table;float:left;width:50%;height:216px;margin:-1px 0 0 -1px;padding:38px 0;border:1px solid #e3e3e3}
 
 .cont_benefits .benefits ul li .img {display:table-cell;width:210px;text-align:center;vertical-align:middle}
 .cont_benefits .benefits ul li .cont {display:table-cell;vertical-align:top}
