@@ -1,5 +1,5 @@
 @charset "utf-8";
 
-/* nanum-square */
+/* Noto Sans */
 
-@import url("https://cdn.jsdelivr.net/npm/nanum-square@1.0.0/dist/style.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
