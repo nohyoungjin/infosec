@@ -1,6 +1,12 @@
 str = ''
 str += '<div id="header">'
-str += '	<div class="h_group sub">'
+
+if ($('body').hasClass("home")) {
+	str += '<div class="h_group">'
+} else {
+	str += '<div class="h_group sub">'
+}
+
 str += '		<div>'
 str += '			<h1><a href="index.html" class="logo_link">SK infosec</a></h1>'
 str += '			<div id="gnb_wrap">'
