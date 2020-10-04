@@ -28,7 +28,7 @@ SUMMARY :
 
 .intro .inner {max-width:1200px;margin:0 auto;padding:70px 110px}
 .intro .inner .tit {margin-bottom:40px;font-size:40px;color:#111;text-align:center;line-height:140%}
-.intro .inner p {font-size:16px;color:#111;line-height:30px}
+.intro .inner p {font-size:16px;color:#111;line-height:28px}
 
 /* section */
 
@@ -111,7 +111,7 @@ SUMMARY :
 .col_xs_68 {width:68%}
 
 .col_area strong {display:block;margin:0 0 15px;font-size:28px;font-weight:800;color:#111;letter-spacing:-0.5px}
-.col_area p {margin:0 0 15px;font-size:16px;color:#666;line-height:28px}
+.col_area p {margin:0 0 15px;font-size:16px;color:#666;line-height:27px}
 
 .col_area.area_02 .fr {text-align:right}
 .col_area.area_02 strong {margin:65px 0 10px;text-align:right}
@@ -148,8 +148,8 @@ SUMMARY :
 
 .cont_intro .bod_cont {padding:35px 0 0}
 .cont_intro .bod_cont table {table-layout:fixed;width:100%;border-top:0;border-spacing:0;border-collapse:collapse}
-.cont_intro .bod_cont table th {height:50px;border-bottom:1px solid #d8d8d8;background-color:#7b7b7b;font-size:14px;color:#fff;text-align:center}
-.cont_intro .bod_cont table td {height:50px;padding-left:30px;border-bottom:1px solid #d8d8d8;background:transparent;font-size:14px;color:#666}
+.cont_intro .bod_cont table th {height:50px;border-bottom:1px solid #d8d8d8;background-color:#7b7b7b;font-size:14px;color:#fff;text-align:center;vertical-align:middle}
+.cont_intro .bod_cont table td {height:50px;padding-left:30px;border-bottom:1px solid #d8d8d8;background:transparent;font-size:14px;color:#666;vertical-align:middle}
 
 .cont_intro .bod_cont table th:first-child {border-top:1px solid #d8d8d8}
 .cont_intro .bod_cont table th:first-child + td {border-top:1px solid #d8d8d8}
@@ -233,10 +233,10 @@ SUMMARY :
 .cont_ethica .ethica_wrap .spot .inner_info p {padding:0 20px;font-size:16px;font-weight:300;color:#fff;line-height:30px}
 
 .cont_ethica .ethica_wrap .h3_title {padding:80px 0 25px}
-.cont_ethica .ethica_wrap p.txt {font-size:16px;color:#666;text-align:justify;line-height:28px;letter-spacing:-0.05px}
+.cont_ethica .ethica_wrap p.txt {font-size:16px;color:#666;text-align:justify;line-height:27px;letter-spacing:-0.05px}
 
 .cont_ethica .accept_wrap:after {display:block;clear:both;content:''}
-.cont_ethica .accept_wrap .fl {float:left;line-height:26px;color:#fff}
+.cont_ethica .accept_wrap .fl {float:left;font-size:15px;line-height:24px;color:#fff}
 .cont_ethica .accept_wrap .fr {float:right;margin-top:-48px;}
 
 .cont_ethica .accept_wrap .fr .btn_text {font-size:20px}

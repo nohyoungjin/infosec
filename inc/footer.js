@@ -12,9 +12,9 @@ str += '			<p class="copy">COPYRIGHT © 2018 SK infosec. All Rights Reserved</p>
 str += '		</div>'
 str += '		<div class="mark">'
 str += '			<ul>'
-str += '				<li><a href="#none"><span class="ico _sns _sns_01">블로그</span></a></li>'
-str += '				<li><a href="#none"><span class="ico _sns _sns_02">페이스북</span></a></li>'
-str += '				<li><a href="#none"><span class="ico _sns _sns_03">유튜브</span></a></li>'
+str += '				<li><a href="#none"><i class="ico sns sns_01">블로그</i></a></li>'
+str += '				<li><a href="#none"><i class="ico sns sns_02">페이스북</i></a></li>'
+str += '				<li><a href="#none"><i class="ico sns sns_03">유튜브</i></a></li>'
 str += '			</ul>'
 str += '		</div>'
 str += '		<div class="f_btn">'
@@ -23,4 +23,4 @@ str += '		</div>'
 str += '	</div>'
 str += '</div>'
 
-document.write( str );
+document.write(str);

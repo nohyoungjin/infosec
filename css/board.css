@@ -70,7 +70,7 @@ SUMMARY :
 .paging .btn-pageFirst,
 .paging .btn-pagePrev,
 .paging .btn-pageNext,
-.paging .btn-pageLast {border:1px solid #e4e4e4;margin:-2px 1px 0 0}
+.paging .btn-pageLast {border:1px solid #e4e4e4;margin:-7px 1px 0 0}
 
 .btn-pageFirst {display:inline-block;width:36px;height:36px;background:url(../img/common/sp_common.png) no-repeat -280px 0}
 .btn-pagePrev {display:inline-block;width:36px;height:36px;background:url(../img/common/sp_common.png) no-repeat -320px 0}
@@ -97,7 +97,7 @@ SUMMARY :
 .list_press li .tit {overflow:hidden;font-size:20px;font-weight:normal;color:#111;text-overflow:ellipsis;white-space:nowrap}
 .list_press li .cont {display:inline-block;width:72.5%;padding-left:35px;vertical-align:middle}
 .list_press li .cont .desc {display:-webkit-box;overflow:hidden;height:44px;margin:20px 0;font-size:14px;color:#666;line-height:22px;text-overflow:ellipsis;white-space:normal;word-wrap:break-word;-webkit-box-orient:vertical;-webkit-line-clamp:2}
-.list_press li .cont .date {font-size:12px;color:#777}
+.list_press li .cont .date {font-size:13px;color:#777}
 .list_press li a:hover .tit {color:#e51937}
 
 /* eqst list */
@@ -106,7 +106,7 @@ SUMMARY :
 .cont_Insight .eqst_both:after {display:block;clear:both;content:''}
 
 .cont_Insight .eqst_both .fl {float:left}
-.cont_Insight .eqst_both .fl select {height:45px;line-height:45px}
+.cont_Insight .eqst_both .fl select {height:45px;line-height:45px;margin-top:-7px}
 .cont_Insight .eqst_both .fl span.year {display:inline-block;margin:13px 12px 10px 5px}
 .cont_Insight .eqst_both .fl span {display:inline-block;margin:13px 0 10px 5px}
 
@@ -141,7 +141,7 @@ ul.insight_wrap li p {display:-webkit-box;overflow:hidden;height:66px;margin:0 0
 
 ul.insight_wrap li .thumb {display:block;position:relative;width:246px;height:136px;margin:0 auto;padding-bottom:55.155%;background-position:center;background-repeat:no-repeat;background-size:cover}
 
-ul.insight_wrap li a.pdf_down {display:inline-block;position:absolute;bottom:9%;left:50%;width:246px;margin:0 0 0 -123px;padding:12px 0 10px;background:#888;font-size:17px;color:#fff;text-align:center;letter-spacing:-0.3px}
+ul.insight_wrap li a.pdf_down {display:inline-block;position:absolute;bottom:9%;left:50%;width:246px;margin:0 0 0 -123px;padding:11px 0 11px;background:#888;font-size:17px;color:#fff;text-align:center;letter-spacing:-0.3px}
 ul.insight_wrap li a.pdf_down:after {content:"";position:relative;left:8px;width:13px;height:11px;display:inline-block;background-image:url(../img/common/sp_common.png);background-repeat:no-repeat;background-position:-710px 0}
 
 /* */
@@ -197,11 +197,11 @@ ul.insight_wrap li.on a.pdf_down {background:#e1002a}
 .bod_tit .fl span {display:inline-block;margin:15px 0 0;font-size:12px;color:#666}
 
 .item {margin-left:5px}
-.ico._sns_1 {width:41px;height:41px;background-position:0px 0px}
-.ico._sns_2 {width:41px;height:41px;background-position:-49px 0px}
-.ico._sns_3 {width:41px;height:41px;background-position:-98px 0px}
-.ico._sns_4 {width:41px;height:41px;background-position:-147px 0px}
-.ico._sns_5 {width:41px;height:41px;background-position:-196px 0px}
+.ico.sns_1 {width:41px;height:41px;background-position:0px 0px}
+.ico.sns_2 {width:41px;height:41px;background-position:-49px 0px}
+.ico.sns_3 {width:41px;height:41px;background-position:-98px 0px}
+.ico.sns_4 {width:41px;height:41px;background-position:-147px 0px}
+.ico.sns_5 {width:41px;height:41px;background-position:-196px 0px}
 
 .bod_cont {position:relative;padding:40px 0;font-size:16px;color:#666;line-height:24px;word-break:break-word}
 .bod_cont img {max-width:100%}
@@ -219,7 +219,7 @@ ul.insight_wrap li.on a.pdf_down {background:#e1002a}
 .lst_preview li a:hover,
 .lst_preview li a:focus {color:#c60824;text-decoration:underline}
 .lst_preview li .tit {display:table-cell;width:16%;margin-top:-13px;background:#f8f8f8;font-size:14px;font-weight:normal;color:#111;text-align:center;vertical-align:middle}
-.lst_preview li .tit span {margin-left:15px;margin-top:-2px}
+.lst_preview li .tit i {margin-left:15px;margin-top:-2px}
 .lst_preview li .desc {display:table-cell;width:84%;vertical-align:middle}
 
 .lst_preview li .desc ul li {padding:15px 0 15px 20px;border-top:1px solid #e4e4e4;font-size:14px;color:#666}
@@ -227,8 +227,8 @@ ul.insight_wrap li.on a.pdf_down {background:#e1002a}
 .lst_preview li .a.desc ul li:first-child {border-top:0}
 .lst_preview li .b.desc ul li:first-child {border-top:0}
 
-.ico._up {width:16px;height:8px;background-position:-540px 0px}
-.ico._down {width:16px;height:8px;background-position:-540px -20px}
+.ico.ico_prev {width:16px;height:8px;background-position:-540px 0px}
+.ico.ico_next {width:16px;height:8px;background-position:-540px -20px}
 
 /* 게시판 */
 
@@ -249,7 +249,7 @@ ul.insight_wrap li.on a.pdf_down {background:#e1002a}
 .input-m + button {margin-left:5px}
 
 select::-ms-expand {display:none}
-.select-m {display:inline-block;height:38px;padding:0 15px;border:1px solid #dbdbdb;font-size:15px;color:#777;line-height:38px;border-radius:0;background:#fff url(../img/common/btn_select.png) no-repeat right 14px center;-webkit-appearance:none;-moz-appearance:none;appearance:none}
+.select-m {display:inline-block;height:38px;padding:0 14px;border:1px solid #dbdbdb;font-size:15px;color:#777;line-height:38px;border-radius:0;background:#fff url(../img/common/btn_select.png) no-repeat right 14px center;-webkit-appearance:none;-moz-appearance:none;appearance:none}
 .select-m._fl {display:block;float:left}
 
 .textarea-m {display:inline-block;height:150px;padding:10px;border:1px solid #dbdbdb;font-size:16px;color:#777;line-height:1.6;border-radius:0;-webkit-appearance:none}
@@ -259,6 +259,8 @@ select::-ms-expand {display:none}
 .cont_inquiry .article_box .article_box_area .h2_title.n_title {margin:100px 0 20px}
 .cont_inquiry .n_txt {display:block;margin:0 0 40px;text-align:center}
 .cont_inquiry .boardList.n_table {border-top:2px solid #505050}
+
+.cont_inquiry .boardList .tbl-form td .w3 {text-align:center}
 
 .cont_inquiry .in_select {margin:0 0 0 6px}
 
@@ -530,14 +532,6 @@ select::-ms-expand {display:none}
 	/* 페이징 */
 
 	.paging .inner_num a {margin:0 0 4px;text-align:center}
-
-	.paging .btn-pageFirst,
-	.paging .btn-pagePrev,
-	.paging .btn-pageNext,
-	.paging .btn-pageLast {margin:-2px 0 0}
-
-	.paging .btn-pagePrev {margin-right:0}
-	.paging .btn-pageNext {margin-left:0}
 
 	/* 리스트 */
 

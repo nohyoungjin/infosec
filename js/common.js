@@ -114,8 +114,9 @@ $(function() {
 
 		$('#gnb').on('mouseenter', '> ul > li', function() {
 
-			if (window.innerWidth > tabletW) {
+			if (window.innerWidth > tabletW && !$(this).hasClass("last")) {
 
+				$(this).addClass('on');
 				$('.h_group').addClass('menu_hover');
 				$(this).children('.sub_menu').stop().fadeIn().parent().siblings().children('.sub_menu').stop().fadeOut('fast');
 
@@ -126,7 +127,30 @@ $(function() {
 
 		});
 
+
+		$('#gnb').on('mouseleave', '> ul > li', function() {
+			
+			$('#gnb > ul > li').removeClass('on');
+
+		});
+
 		$('#gnb').on('mouseleave', function() {
+
+			if (window.innerWidth > tabletW) {
+
+				$('#gnb > .box > ul > li').removeClass('on');
+				$('.h_group').removeClass('on').css('border-bottom','1px solid #d3d3d3');
+
+				$('#gnb > ul > li').parents('.h_group').stop().animate({ 'height': '90px' }, 300, function() {
+					$('#gnb > ul > li').siblings().children('.sub_menu').hide();
+					$('.h_group').removeClass('menu_hover');
+				});
+
+			}
+
+		});
+
+		$('#gnb').on('mouseenter', '> ul > li.last', function() {
 
 			if (window.innerWidth > tabletW) {
 
@@ -185,7 +209,6 @@ $(function() {
 			$('#gnb').fadeIn('fast');
 			$('body').toggleClass('open');
 			
-			$('#wrap').stop().animate({ 'paddingTop': '110px' }, 500, 'linear');
 			$('#header').stop().animate({ 'top': '0' }, 500, 'linear');
 			$('.backface').stop().fadeIn('slow');
 			
@@ -216,8 +239,10 @@ $(function() {
 
 		$(document).on('click', '#gnb > ul > li > a', function(e) {
 
-			e.preventDefault();
-			e.stopPropagation();
+			if (!$(this).parent().hasClass('last')) {
+				e.preventDefault();
+				e.stopPropagation();
+			}
 
 			if (window.innerWidth <= tabletW) {
 
@@ -245,12 +270,20 @@ $(function() {
 				e.preventDefault();
 				e.stopPropagation();
 
-				if($(this).parent().next('.two_depth').length) {
+				if ($(this).parent().next('.two_depth').length) {
 
 					e.preventDefault();
 
 					$(this).parent().next('.two_depth').filter(':not(:animated)').slideToggle();
 					$('#gnb .sub_menu .two_depth').filter(':not(:animated)').slideUp('fast');
+
+					if ($(this).parent().hasClass('current')) {
+						$(this).parent().removeClass('current');
+						return;
+					}
+
+					$('#gnb > ul > li:not(".last") .sub_menu .item').removeClass('current');
+					$(this).parent().toggleClass('current');
 
 				}
 
