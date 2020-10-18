@@ -87,8 +87,8 @@ SUMMARY :
 
 /* 공통 (회사소개) */
 
-.sec .sec_inner .h3_title {font-size:28px;font-weight:800;letter-spacing:-0.5px}
-.sec .sec_inner .h4_title {padding:80px 0 25px;font-size:32px;font-weight:800;letter-spacing:-0.5px;text-transform:uppercase}
+.sec .sec_inner .h3_title {font-size:28px;font-weight:500;letter-spacing:-0.5px}
+.sec .sec_inner .h4_title {padding:80px 0 25px;font-size:32px;font-weight:500;text-align:center;letter-spacing:-0.5px;text-transform:uppercase}
 
 .spot {display:table;position:relative;width:100%;text-align:center}
 .spot .inner_info {display:table-cell;vertical-align:middle}
@@ -110,8 +110,8 @@ SUMMARY :
 .col_xs_32 {width:32%}
 .col_xs_68 {width:68%}
 
-.col_area strong {display:block;margin:0 0 15px;font-size:28px;font-weight:800;color:#111;letter-spacing:-0.5px}
-.col_area p {margin:0 0 15px;font-size:16px;color:#666;line-height:27px}
+.col_area strong {display:block;margin:0 0 15px;font-size:28px;font-weight:500;color:#111;letter-spacing:-0.5px}
+.col_area p {margin:0 0 15px;font-size:16px;color:#666;line-height:26px}
 
 .col_area.area_02 .fr {text-align:right}
 .col_area.area_02 strong {margin:65px 0 10px;text-align:right}
@@ -121,7 +121,7 @@ SUMMARY :
 
 /* OVERVIEW (회사개요) */
 
-.cont_intro .spot {height:285px;margin-bottom:75px;background:url(../img/comp/intro_bg.jpg) no-repeat center center}
+.cont_intro .spot {height:285px;margin-bottom:25px;background:url(../img/comp/intro_bg.jpg) no-repeat center center}
 
 .cont_intro .infosec {display:block;width:141px;height:57px;margin:0 auto;background-position:-730px 0}
 .cont_intro .sec_inner.box_area_1 {padding:0 120px 0}
@@ -146,7 +146,7 @@ SUMMARY :
 .ico._intro_4 {background-position:-507px -510px}
 .ico._intro_5 {background-position:-676px -510px}
 
-.cont_intro .bod_cont {padding:35px 0 0}
+.cont_intro .bod_cont {padding:40px 0 0}
 .cont_intro .bod_cont table {table-layout:fixed;width:100%;border-top:0;border-spacing:0;border-collapse:collapse}
 .cont_intro .bod_cont table th {height:50px;border-bottom:1px solid #d8d8d8;background-color:#7b7b7b;font-size:14px;color:#fff;text-align:center;vertical-align:middle}
 .cont_intro .bod_cont table td {height:50px;padding-left:30px;border-bottom:1px solid #d8d8d8;background:transparent;font-size:14px;color:#666;vertical-align:middle}
@@ -169,8 +169,8 @@ SUMMARY :
 .cont_vision .vision_both .fl {float:left;width:41%;text-align:center}
 .cont_vision .vision_both .fr {float:right;width:59%}
 
-.cont_vision .vision_both .fr strong {display:inline-block;margin:55px 0 10px;font-size:32px;font-weight:800;color:#111;letter-spacing:-0.8px;text-transform:uppercase}
-.cont_vision .vision_both .fr p {font-size:20px;font-weight:400;color:#111;line-height:32px;letter-spacing:0.2px}
+.cont_vision .vision_both .fr strong {display:inline-block;margin:55px 0 10px;font-size:32px;font-weight:500;color:#111;letter-spacing:-0.2px;text-transform:uppercase}
+.cont_vision .vision_both .fr p {font-size:20px;font-weight:300;color:#111;line-height:28px;letter-spacing:-0.2px}
 .cont_vision .vision_both .fr p span {color:#e0002a}
 
 .cont_vision .up {position:absolute;bottom:-4px;left:50%;margin-left:-169.5px}
@@ -178,7 +178,7 @@ SUMMARY :
 .cont_vision .mission {margin:0 auto 75px;text-align:center}
 .cont_vision .mission img {max-width:100%}
 
-.cont_vision .platform > strong {display:block;margin:0 0 35px;font-size:22px;text-align:center}
+.cont_vision .platform > strong {display:block;margin:0 0 35px;font-size:22px;font-weight:500;text-align:center}
 .cont_vision .platform > strong span {font-weight:300}
 
 .cont_vision .list_mission {text-align:center}
@@ -186,11 +186,11 @@ SUMMARY :
 .cont_vision .list_mission > li {float:left;width:31.3%;margin:0 1%}
 
 .cont_vision .list_mission .thumb img {max-width:100%}
-.cont_vision .list_mission li strong {display:inline-block;margin:20px 0 12px;font-size:22px;font-weight:800;color:#111;letter-spacing:-0.5px}
-.cont_vision .list_mission li strong em {font-weight:800;color:#e0002a}
+.cont_vision .list_mission li strong {display:inline-block;margin:20px 0 12px;font-size:22px;font-weight:500;color:#111;letter-spacing:-0.5px}
+.cont_vision .list_mission li strong em {color:#e0002a}
 .cont_vision .list_mission li:nth-child(2) strong em {color:#e87405}
 .cont_vision .list_mission li:nth-child(3) strong em {color:#5b626a}
-.cont_vision .list_mission li p {font-size:15px;line-height:23px;letter-spacing:-0.9px}
+.cont_vision .list_mission li p {font-size:15px;color:#555;line-height:23px;letter-spacing:-0.9px}
 
 /* 기업문화 (기업문화) */
 
@@ -208,10 +208,10 @@ SUMMARY :
 .list_unit div.white_box em.num {display:inline-block;width:41px;height:41px;margin-left:5px;background:#e8252d;font-size:16px;font-weight:700;color:#fff;line-height:41px;border-radius:200px}
 .list_unit div.white_box strong {display:block;margin:15px 0 0;font-size:24px;letter-spacing:-0.5px}
 
-.ico._culture {width:80px;height:80px;margin:15px 0}
-.ico._culture_1 {background-position:0 -680px}
-.ico._culture_2 {background-position:-90px -680px}
-.ico._culture_3 {background-position:-180px -680px}
+.ico.ico_culture {width:80px;height:80px;margin:15px 0}
+.ico.culture_1 {background-position:0 -680px}
+.ico.culture_2 {background-position:-90px -680px}
+.ico.culture_3 {background-position:-180px -680px}
 
 .list_unit div.white_box p {font-size:16px;color:#666;line-height:24px;letter-spacing:-0.5px}
 
@@ -276,7 +276,7 @@ SUMMARY :
 .cont_ethica .img_txt_box_wrap {margin-top:10px}
 
 .cont_ethica .img_txt_box_wrap img {margin-bottom:25px}
-.cont_ethica .img_txt_box_wrap .title {font-size:20px;font-weight:800}
+.cont_ethica .img_txt_box_wrap .title {font-size:20px;font-weight:700}
 
 .cont_ethica .sec.ethica_bg {height:286px;background:url(../img/comp/ethica_img2.jpg) no-repeat center center}
 .cont_ethica .sec.ethica_bg .sec_inner .h3_title {font-size:24px;font-weight:500;color:#fff}
@@ -315,7 +315,7 @@ SUMMARY :
 
 .cont_fairTrade .declaration_wrap {padding-top:80px}
 .cont_fairTrade .declaration {padding:0;border:0;background:#fff;text-align:center}
-.cont_fairTrade .declaration strong {display:inline-block;font-size:28px;font-weight:800;color:#111;letter-spacing:-0.5px}
+.cont_fairTrade .declaration strong {display:inline-block;font-size:28px;font-weight:500;color:#111;letter-spacing:-0.5px}
 .cont_fairTrade .declaration .cont p {letter-spacing:-0.3px}
 
 .cont_fairTrade .declaration .img {margin:40px 0}
@@ -377,22 +377,22 @@ SUMMARY :
 .cont_upbringing .col_area span.title {font-size:22px;color:#111;text-transform:uppercase;}
 .cont_upbringing .col_area.area_01 .fr {padding-top:80px;}
 .cont_upbringing .col_area p {position:relative;padding-left:7px;margin-bottom:0px;}
-.cont_upbringing .col_area p:before {content:'';display:block;position:absolute;top:13px;left:0;width:2px;height:2px;border-radius:100px; background-color:#666}
+.cont_upbringing .col_area p:before {content:'';display:block;position:absolute;top:13px;left:0;width:2px;height:2px;border-radius:100px;background-color:#666}
 .cont_upbringing .col_area.area_02 p {position:relative;padding-left:7px;margin-bottom:0px;text-align:left;float:right;}
-.cont_upbringing .col_area.area_02 p:before {content:'';display:block;position:absolute;top:13px;left:0;width:2px;height:2px;border-radius:100px; background-color:#666}
-.cont_upbringing .skms div.col_area.area_01:nth-last-child(1) {margin-bottom:0px;}
+.cont_upbringing .col_area.area_02 p:before {content:'';display:block;position:absolute;top:13px;left:0;width:2px;height:2px;border-radius:100px;background-color:#666}
+.cont_upbringing .skms div.col_area.area_01:nth-last-child(1) {margin-bottom:0}
 
 /* 직무소개 (채용) */
 
 .cont_jobIntro .spot {height:285px;background:url(../img/comp/jobIntro_bg.jpg) no-repeat center center}
-.cont_jobIntro .spot p {font-size:20px;line-height:30px;}
+.cont_jobIntro .spot p {font-size:20px;line-height:30px}
 .cont_jobIntro-table .jobIntro_title {font-size:28px;color:#111;margin:60px 0 20px 0;text-align:center;font-weight:bold}
 .cont_jobIntro-table .tbl-list {border-bottom:1px solid #e4e4e4;color:#111}
 .cont_jobIntro-table .tbl-list th {border-right:1px solid #e4e4e4;color:#111}
 .cont_jobIntro-table .tbl-list th:nth-last-child(1) {border-right:0;}
-.cont_jobIntro-table .tbl-list td {border-right:1px solid #e4e4e4;color:#666;line-height:1.5em;}
+.cont_jobIntro-table .tbl-list td {border-right:1px solid #e4e4e4;color:#666;line-height:1.5em}
 .cont_jobIntro-table .tbl-list td:nth-last-child(1) {border-right:0;letter-spacing:-0.6px}
-.cont_jobIntro-table .tbl-list tbody td:nth-last-child(1) {text-align:left;padding:20px;}
+.cont_jobIntro-table .tbl-list tbody td:nth-last-child(1) {text-align:left;padding:20px}
 .cont_jobIntro-table .tbl-list .th1 {width:145px;}
 .cont_jobIntro-table .tbl-list .th2 {width:150px;}
 
@@ -408,7 +408,7 @@ SUMMARY :
 .cont_benefits .benefits ul li .img {display:table-cell;width:210px;text-align:center;vertical-align:middle}
 .cont_benefits .benefits ul li .cont {display:table-cell;vertical-align:top}
 
-.cont_benefits .benefits ul li .cont strong {display:inline-block;margin:5px 0 12px;font-size:22px;font-weight:800;letter-spacing:-0.5px}
+.cont_benefits .benefits ul li .cont strong {display:inline-block;margin:5px 0 12px;font-size:22px;font-weight:700;letter-spacing:-0.5px}
 .cont_benefits .benefits ul li .cont ul li {position:relative;padding:0 8px;font-size:14px;line-height:22px}
 .cont_benefits .benefits ul li .cont ul li:before {content:'';display:block;position:absolute;top:10px;left:0;width:2px;height:1px;background-color:#999}
 
