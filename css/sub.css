@@ -135,16 +135,16 @@ SUMMARY :
 .cont_intro .intro ul li .cont strong {display:inline-block;margin:30px 0 15px;font-size:26px}
 .cont_intro .intro ul li .cont p {position:relative;padding:0 0 0 8px;font-size:14px;line-height:19px;color:#666}
 
-.cont_intro .intro.ver2 {padding:100px 0 0;color:#111}
+.cont_intro .intro.ver2 {padding:70px 0 0;color:#111}
 .cont_intro .intro.ver2 ul li {float:left;width:31.3%;margin:0 1% 2%}
 .cont_intro .intro.ver2 ul li .cont p {padding:15px 8px 0 8px;text-align:justify;line-height:22px}
 
-.ico._intro {width:159px;height:159px}
-.ico._intro_1 {background-position:0 -510px}
-.ico._intro_2 {background-position:-169px -510px}
-.ico._intro_3 {background-position:-338px -510px}
-.ico._intro_4 {background-position:-507px -510px}
-.ico._intro_5 {background-position:-676px -510px}
+.ico.ico_intro {width:159px;height:159px}
+.ico.ico_intro_1 {background-position:0 -510px}
+.ico.ico_intro_2 {background-position:-169px -510px}
+.ico.ico_intro_3 {background-position:-338px -510px}
+.ico.ico_intro_4 {background-position:-507px -510px}
+.ico.ico_intro_5 {background-position:-676px -510px}
 
 .cont_intro .bod_cont {padding:40px 0 0}
 .cont_intro .bod_cont table {table-layout:fixed;width:100%;border-top:0;border-spacing:0;border-collapse:collapse}
@@ -334,23 +334,23 @@ SUMMARY :
 .cont_fairTrade .trade > ul > li strong {display:block;margin:20px 0 10px;font-size:18px;letter-spacing:-0.5px}
 .cont_fairTrade .trade > ul > li p {font-size:14px;color:#666;line-height:22px;letter-spacing:-0.5px}
 
-.ico._fair {position:absolute;top:10px;right:10px;width:80px;height:80px}
-.ico._fair_1 {background-position:0 -760px}
-.ico._fair_2 {background-position:-90px -760px}
-.ico._fair_3 {background-position:-180px -760px}
-.ico._fair_4 {background-position:-270px -760px}
-.ico._fair_5 {background-position:-360px -760px}
-.ico._fair_6 {background-position:-450px -760px}
-.ico._fair_7 {background-position:-540px -760px}
+.ico.ico_fair {position:absolute;top:10px;right:10px;width:80px;height:80px}
+.ico.ico_fair_1 {background-position:0 -760px}
+.ico.ico_fair_2 {background-position:-90px -760px}
+.ico.ico_fair_3 {background-position:-180px -760px}
+.ico.ico_fair_4 {background-position:-270px -760px}
+.ico.ico_fair_5 {background-position:-360px -760px}
+.ico.ico_fair_6 {background-position:-450px -760px}
+.ico.ico_fair_7 {background-position:-540px -760px}
 
 /* HR 제도 (채용) */
 
 .cont_talent .system {padding:70px 0 0}
 
-.ico._talentN {width:80px;height:80px;margin:10px 0}
-.ico._talentN_1 {background-position:-270px -680px}
-.ico._talentN_2 {background-position:-360px -680px}
-.ico._talentN_3 {background-position:-450px -680px}
+.ico.ico_talentN {width:80px;height:80px;margin:10px 0}
+.ico.ico_talentN_1 {background-position:-270px -680px}
+.ico.ico_talentN_2 {background-position:-360px -680px}
+.ico.ico_talentN_3 {background-position:-450px -680px}
 
 .cont_talent .list_unit div.white_box {height:334px}
 .cont_talent .list_unit div.white_box p span {font-family:'돋움';font-weight:500}
@@ -392,7 +392,7 @@ SUMMARY :
 .cont_jobIntro-table .tbl-list th:nth-last-child(1) {border-right:0;}
 .cont_jobIntro-table .tbl-list td {border-right:1px solid #e4e4e4;color:#666;line-height:1.5em}
 .cont_jobIntro-table .tbl-list td:nth-last-child(1) {border-right:0;letter-spacing:-0.6px}
-.cont_jobIntro-table .tbl-list tbody td:nth-last-child(1) {text-align:left;padding:20px}
+.cont_jobIntro-table .tbl-list tbody td:nth-last-child(1) {padding:20px;text-align:left}
 .cont_jobIntro-table .tbl-list .th1 {width:145px;}
 .cont_jobIntro-table .tbl-list .th2 {width:150px;}
 
@@ -410,20 +410,20 @@ SUMMARY :
 
 .cont_benefits .benefits ul li .cont strong {display:inline-block;margin:5px 0 12px;font-size:22px;font-weight:700;letter-spacing:-0.5px}
 .cont_benefits .benefits ul li .cont ul li {position:relative;padding:0 8px;font-size:14px;line-height:22px}
-.cont_benefits .benefits ul li .cont ul li:before {content:'';display:block;position:absolute;top:10px;left:0;width:2px;height:1px;background-color:#999}
+.cont_benefits .benefits ul li .cont ul li:before {content:'';display:block;position:absolute;top:11px;left:0;width:2px;height:1px;background-color:#999}
 
-.ico._benefits {width:130px;height:130px}
-.ico._benefits_1 {background-position:0 -130px}
-.ico._benefits_2 {background-position:-140px -130px}
-.ico._benefits_3 {background-position:-280px -130px}
-.ico._benefits_4 {background-position:-420px -130px}
-.ico._benefits_5 {background-position:-560px -130px}
-.ico._benefits_6 {background-position:-700px -130px}
-.ico._benefits_7 {background-position:-840px -130px}
-.ico._benefits_8 {background-position:-980px -130px}
-.ico._benefits_9 {background-position:-1120px -130px}
-.ico._benefits_10 {background-position:-1260px -130px}
-.ico._benefits_11 {background-position:-1400px -130px}
+.ico.ico_benefits {width:130px;height:130px}
+.ico.ico_benefits_1 {background-position:0 -130px}
+.ico.ico_benefits_2 {background-position:-140px -130px}
+.ico.ico_benefits_3 {background-position:-280px -130px}
+.ico.ico_benefits_4 {background-position:-420px -130px}
+.ico.ico_benefits_5 {background-position:-560px -130px}
+.ico.ico_benefits_6 {background-position:-700px -130px}
+.ico.ico_benefits_7 {background-position:-840px -130px}
+.ico.ico_benefits_8 {background-position:-980px -130px}
+.ico.ico_benefits_9 {background-position:-1120px -130px}
+.ico.ico_benefits_10 {background-position:-1260px -130px}
+.ico.ico_benefits_11 {background-position:-1400px -130px}
 
 /* 채용공고 (채용) */
 
@@ -432,10 +432,10 @@ SUMMARY :
 
 .cont_careers .system {padding:70px 0 0}
 
-.ico._careers {width:80px;height:80px;margin:10px 0}
-.ico._careers_1 {background-position:-540px -680px}
-.ico._careers_2 {background-position:-630px -680px}
-.ico._careers_3 {background-position:-720px -680px}
+.ico.ico_careers {width:80px;height:80px;margin:10px 0}
+.ico.ico_careers_1 {background-position:-540px -680px}
+.ico.ico_careers_2 {background-position:-630px -680px}
+.ico.ico_careers_3 {background-position:-720px -680px}
 
 .cont_careers .list_unit div.white_box {height:334px}
 
@@ -444,23 +444,23 @@ SUMMARY :
 .process ul:after {display:block;clear:both;content:''}
 .process ul > li {position:relative;z-indeX:2;float:left;width:14.28%;text-align:center}
 
-.process ul > li span {position:relative;top:-25px;display:inline-block;padding:8px 16px;background-color:#757575;font-size:12px;color:#fff;border-radius:20px}
+.process ul > li em {position:relative;top:-25px;display:inline-block;padding:8px 16px;background-color:#757575;font-size:12px;color:#fff;border-radius:20px}
 .process ul > li p {position:relative;top:-10px;font-size:18px;font-weight:700;color:#111;letter-spacing:-0.5px}
 
-.process ul > li:last-child span {background-color:#e0002a}
+.process ul > li:last-child em {background-color:#e0002a}
 .process ul > li:last-child p {color:#e0002a}
 
-.ico._recruit {width:120px;height:120px;margin:10px 0}
-.ico._recruit_1 {background-position:0px -840px}
-.ico._recruit_2 {background-position:-130px -840px}
-.ico._recruit_3 {background-position:-260px -840px}
-.ico._recruit_4 {background-position:-390px -840px}
-.ico._recruit_5 {background-position:-520px -840px}
-.ico._recruit_6 {background-position:-650px -840px}
-.ico._recruit_7 {background-position:-780px -840px}
-.ico._recruit_8 {background-position:-910px -840px}
-.ico._recruit_9 {background-position:-1040px -840px}
-.ico._recruit_10 {background-position:-1170px -840px}
+.ico.ico_recruit {width:120px;height:120px;margin:10px 0}
+.ico.ico_recruit_1 {background-position:0px -840px}
+.ico.ico_recruit_2 {background-position:-130px -840px}
+.ico.ico_recruit_3 {background-position:-260px -840px}
+.ico.ico_recruit_4 {background-position:-390px -840px}
+.ico.ico_recruit_5 {background-position:-520px -840px}
+.ico.ico_recruit_6 {background-position:-650px -840px}
+.ico.ico_recruit_7 {background-position:-780px -840px}
+.ico.ico_recruit_8 {background-position:-910px -840px}
+.ico.ico_recruit_9 {background-position:-1040px -840px}
+.ico.ico_recruit_10 {background-position:-1170px -840px}
 
 .btn_cen {margin:90px 0 40px;text-align:center}
 .btn_cen a {padding:24px 29px;background:#e51937;font-size:20px;color:#fff;border-radius:5px}
@@ -529,7 +529,7 @@ SUMMARY :
 
 	/* 공통 (회사소개) */
 
-	.sec .sec_inner .h4_title {padding:25px 0 25px}
+	.sec .sec_inner .h4_title {padding:25px 0}
 	.top_info_txt br {display:none}
 	.spot .inner_info p br {display:none}
 
@@ -572,7 +572,7 @@ SUMMARY :
 	.cont_ethica .ethica_wrap .spot .inner_info p br {display:none}
 	.cont_ethica .accept_wrap .fl br {display:none}
 	.cont_ethica .accept_wrap .fr .btn_text {margin-top:30px}
-    .cont_ethica .accept_wrap .fr {clear:left;width:100%;display:block; margin-top:20px;}
+    .cont_ethica .accept_wrap .fr {display:block;clear:left;width:100%;margin-top:20px}
 
 	.ethica_box {height:inherit;text-align:center}
 	.ethica_box ._left,
@@ -595,7 +595,7 @@ SUMMARY :
 	.cont_fairTrade .declaration_wrap {padding-top:25px}
 	.cont_fairTrade .inner_info {padding:40px 0 0}
 
-	.cont_fairTrade .inner_info .fl {float:none;width:100%;margin:0; padding:0 20px}
+	.cont_fairTrade .inner_info .fl {float:none;width:100%;margin:0;padding:0 20px}
 	.cont_fairTrade .inner_info .fr {float:none;width:100%;margin:0}
 
 	.cont_fairTrade .inner_info .fl strong {margin-bottom:20px;font-size:22px}
@@ -621,12 +621,12 @@ SUMMARY :
 
     /* 육성채계 (채용) */
 
-    .cont_upbringing .col_area.area_01 .fr {padding-top:0px;}
+    .cont_upbringing .col_area.area_01 .fr {padding-top:0}
 
     /* 직무소개 (채용) */
 
-    .cont_jobIntro-table .tbl-list .th1 {width:125px;}
-    .cont_jobIntro-table .tbl-list .th2 {width:130px;}
+    .cont_jobIntro-table .tbl-list .th1 {width:125px}
+    .cont_jobIntro-table .tbl-list .th2 {width:130px}
 
 	/* 복리후생 (채용) */
 
@@ -639,7 +639,7 @@ SUMMARY :
 	.process:before {display:none}
 	.process ul > li {float:left;width:50%}
 
-	.process ul > li span {display:block;width:80px;margin:0 auto;padding:8px 16px}
+	.process ul > li em {display:block;width:80px;margin:0 auto;padding:8px 16px}
 
 	.btn_cen {margin:70px 0 40px}
 
