@@ -125,7 +125,7 @@ body {font-family:'Noto Sans KR','맑은 고딕','Malgun Gothic','돋움','Dotum
 
 #header .h_group > div #gnb {float:left;z-index:100;margin:32px 0 0 140px}
 #header .h_group > div #gnb > ul:after {display:block;clear:both;content:''}
-#header .h_group > div #gnb > ul > li {float:left}
+#header .h_group > div #gnb > ul > li {float:left;height:58px}
 #header .h_group > div #gnb > ul > li:first-child {background:none}
 
 #header .h_group > div #gnb > ul > li > a {display:block;position:relative;width:180px;text-align:center;cursor:default}

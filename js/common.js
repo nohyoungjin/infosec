@@ -131,7 +131,6 @@ $(function() {
 
 		});
 
-
 		$gnb.on('mouseleave', '> ul > li', function() {
 			
 			$('#gnb > ul > li').removeClass('on');
