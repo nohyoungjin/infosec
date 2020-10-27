@@ -2,4 +2,76 @@
 
 /* Noto Sans */
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap'); */
+
+@font-face {
+    font-family: 's-core-dream-thin';
+    src: url('scdream1-webfont.woff2') format('woff2'),
+         url('scdream1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 's-core-dream-extralight';
+    src: url('scdream2-webfont.woff2') format('woff2'),
+         url('scdream2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 's-core-dream-light';
+    src: url('scdream3-webfont.woff2') format('woff2'),
+         url('scdream3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 's-core-dream-regular';
+    src: url('../font/scdream4-webfont.woff2') format('woff2'),
+         url('../font/scdream4-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 's-core-dream-medium';
+    src: url('scdream5-webfont.woff2') format('woff2'),
+         url('scdream5-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 's-core-dream-bold';
+    src: url('scdream6-webfont.woff2') format('woff2'),
+         url('scdream6-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 's-core-dream-extrabold';
+    src: url('scdream7-webfont.woff2') format('woff2'),
+         url('scdream7-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 's-core-dream-heavy';
+    src: url('scdream8-webfont.woff2') format('woff2'),
+         url('scdream8-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 's-core-dream-black';
+    src: url('scdream9-webfont.woff2') format('woff2'),
+         url('scdream9-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
