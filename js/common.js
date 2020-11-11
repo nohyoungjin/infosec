@@ -125,7 +125,7 @@ $(function() {
 				$(this).children('.sub_menu').stop().fadeIn().parent().siblings().children('.sub_menu').stop().fadeOut('fast');
 
 				headH = $(this).find('.sub_menu').height() + 92;
-				$(this).parents('.h_group').stop().animate({ 'height': headH }, 300, 'easeOutQuad');
+				$(this).parents('.h_group').stop().animate({ 'height': headH }, 400, 'easeOutQuad');
 
 			}
 
@@ -144,7 +144,7 @@ $(function() {
 				$('#gnb > .box > ul > li').removeClass('on');
 				$h_group.removeClass('on').css('border-bottom','1px solid #d3d3d3');
 
-				$('#gnb > ul > li').parents('.h_group').stop().animate({ 'height': '90px' }, 300, function() {
+				$('#gnb > ul > li').parents('.h_group').stop().animate({ 'height': '90px' }, 400, function() {
 					$('#gnb > ul > li').siblings().children('.sub_menu').hide();
 					$h_group.removeClass('menu_hover');
 				});
@@ -159,7 +159,7 @@ $(function() {
 
 				$h_group.removeClass('on').css('border-bottom','1px solid #d3d3d3');
 
-				$('#gnb > ul > li').parents('.h_group').stop().animate({ 'height': '90px' }, 300, function() {
+				$('#gnb > ul > li').parents('.h_group').stop().animate({ 'height': '90px' }, 400, function() {
 					$('#gnb > ul > li').siblings().children('.sub_menu').hide();
 					$h_group.removeClass('menu_hover');
 				});
@@ -178,7 +178,7 @@ $(function() {
 				$h_group.addClass('on').css('border-bottom','none');
 
 				headH = $(this).parent().find('.sub_menu').height() + 92;
-				$(this).parents('.h_group').stop().animate({ 'height': headH }, 300, 'swing');
+				$(this).parents('.h_group').stop().animate({ 'height': headH }, 400, 'swing');
 
 			}
 
@@ -193,7 +193,7 @@ $(function() {
 				$h_group.removeClass('on').css('border-bottom','1px solid #d3d3d3');
 				$('#gnb > ul > li').siblings().children('.sub_menu').hide();
 
-				$('#gnb > ul > li').parents('.h_group').stop().animate({ 'height': '90px' }, 300, function() {
+				$('#gnb > ul > li').parents('.h_group').stop().animate({ 'height': '90px' }, 400, function() {
 					$('#gnb > ul > li').siblings().children('.sub_menu').hide();
 				});
 

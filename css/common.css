@@ -169,13 +169,15 @@ body {font-family:'Noto Sans KR','맑은 고딕','Malgun Gothic','돋움','Dotum
 
 #header .h_group.menu_hover {background:#fff}
 #header .h_group.menu_hover > div #gnb > ul > li > a span {color:#333}
+#header .h_group.menu_hover .search_area .btn_search span {border:1px solid #999dad}
 
 #header .h_group.affix {background:#fff}
 #header .h_group.affix > div #gnb > ul > li > a span {color:#333}
+#header .h_group.affix .search_area .btn_search span {border:1px solid #999dad}
 
 #header .h_group.sub {background:#fff}
 #header .h_group.sub > div #gnb > ul > li > a span {color:#333}
-
+#header .h_group.sub .search_area .btn_search span {border:1px solid #999dad}
 
 #header .h_group.menu_hover > div h1 a, 
 #header .h_group.affix > div h1 a, 
@@ -190,7 +192,7 @@ body {font-family:'Noto Sans KR','맑은 고딕','Malgun Gothic','돋움','Dotum
 #header .search_area .sizing_wrap.show input {width:137px;height:30px}
 #header .search_area .sizing_wrap input::placeholder {color:#f8f8f8}
 
-#header .search_area .btn_search span {display:block;position:relative;z-index:1;width:30px;height:30px;border:1px solid #999dad;background:url(../img/common/sp_common.png) no-repeat -132px -52px;font-size:12px;color:transparent;text-indent:-9999px}
+#header .search_area .btn_search span {display:block;position:relative;z-index:1;width:30px;height:30px;background:url(../img/common/sp_common.png) no-repeat -132px -52px;font-size:12px;color:transparent;text-indent:-9999px}
 #header .search_area .sizing_wrap.show .btn_search {-webkit-transform:translateX(-144px);transform:translateX(-144px);opacity:1}
 
 #header .search_area .btn_cl {display:none;position:absolute;right:0px;top:5px;opacity:0}
@@ -297,7 +299,7 @@ body {font-family:'Noto Sans KR','맑은 고딕','Malgun Gothic','돋움','Dotum
 	
 	#offcanvas {display:block}
 	.btn_offcanvas {display:block}
-	.btn_offcanvas span {display:inline-block;height:30px;padding:0 14px;border:1px solid #999dad;background:url(../img/common/sp_common.png) no-repeat -132px -87px;font-size:0;line-height:30px}
+	.btn_offcanvas span {display:inline-block;height:30px;padding:0 14px;background:url(../img/common/sp_common.png) no-repeat -132px -87px;font-size:0;line-height:30px}
 	#gnb .btn_offcanvas_close {display:block}
 	
 	#header .h_group {height:60px !important}
@@ -344,7 +346,7 @@ body {font-family:'Noto Sans KR','맑은 고딕','Malgun Gothic','돋움','Dotum
 
 	#header .h_group.menu_hover .btn_offcanvas span,
 	#header .h_group.affix .btn_offcanvas span,
-	#header .h_group.sub .btn_offcanvas span {background:url(../img/common/sp_common.png) no-repeat -167px -87px}
+	#header .h_group.sub .btn_offcanvas span {background:url(../img/common/sp_common.png) no-repeat -167px -87px;border:1px solid #999dad}
 
 	/* search */
 
