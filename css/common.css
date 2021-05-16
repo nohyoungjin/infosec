@@ -127,7 +127,7 @@ SUMMARY :
 
 #header .h_group > div #gnb > ul > li > a {display:block;position:relative;width:180px;text-align:center;cursor:default}
 
-#header .h_group > div #gnb > ul > li > a:after {content:'';position:absolute;top:56px;left:50%;width:0;height:2px;background:#222;-ms-transform:translate(-50%,0);-webkit-transform:translate(-50%,0);transform:translate(-50%,0);transition:.4s ease-in-out}
+#header .h_group > div #gnb > ul > li > a:after {content:'';position:absolute;top:58px;left:50%;z-index:1000;width:0;height:1px;background:#222;-ms-transform:translate(-50%,0);-webkit-transform:translate(-50%,0);transform:translate(-50%,0);transition:.4s ease-in-out}
 #header .h_group > div #gnb > ul > li.on > a:after {width:50%}
 
 #header .h_group > div #gnb > ul > li.last > a {cursor:pointer}
