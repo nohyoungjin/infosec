@@ -8,7 +8,7 @@ if ($('body').hasClass("home")) {
 }
 
 str += '		<div>'
-str += '			<h1><a href="index.html" class="logo_link">SK infosec</a></h1>'
+str += '			<h1><a href="index.html" class="logo_link"><span class="blind">SK infosec</span></a></h1>'
 str += '			<a href="#offcanvas" class="btn_offcanvas"><span>전체메뉴 열기</span></a>'
 str += '			<div id="gnb">'
 str += '				<button type="button" class="btn_offcanvas_close">전체메뉴 닫기</button>'
